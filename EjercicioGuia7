@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Caninos
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Metodos para imprimir
+            public string MostrarVistaMenuOperario()
+            {
+                Console.WriteLine("Ingrese una opcion: \n");
+                Console.WriteLine("Opcion 1: Registrar Acceso \n");
+                Console.WriteLine("Opcion 2: Mostrar Cantidad de Ingresos \n");
+                Console.WriteLine("Opcion 3: Mostrar informe de caja \n");
+                Console.WriteLine("Opcion 4: Salir \n");
+
+            }
+            public string MostrarVistaMenuRegistro()
+            {
+                Console.WriteLine("Opcion 1: Ingresar tipo vehículos \n");
+                Console.WriteLine("Opcion 2: Cantidad de vehículos \n");
+                Console.WriteLine("Opcion 3: Numero de dias \n");
+                Console.WriteLine("Opcion 4: Imprimir ticket \n");
+                Console.WriteLine("Opcion 5: Salir \n");
+
+            }
+
+            switch (op)
+            {
+                case 1: Console.WriteLine("Registrar acceso:");
+
+            }
+        }
+    }
+}
